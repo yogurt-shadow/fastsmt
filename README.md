@@ -1,8 +1,19 @@
 FastSMT  <a href="https://www.sri.inf.ethz.ch/"><img width="100" alt="portfolio_view" align="right" src="http://safeai.ethz.ch/img/sri-logo.svg"></a>
 =============================================================================================================
 
+## Update
+This tool supports Z3 4.8.10 as of June, 2021. 
+
+Tested on -
+OS: Ubuntu 20.04 Focal Fossa
+Python: 3.8.5.
+Compiler Suite Version: gcc version 10.2.0 (Ubuntu 10.2.0-5ubuntu1~20.04)
+
+
+# Introduction
+
 FastSMT is a tool to augment your SMT solver by learning to optimize its performance for your dataset of formulas.
-Our tool is built on top of Z3 SMT solver (https://github.com/Z3Prover/z3). Currently we support Z3 4.6.2 and the tool is tested on Ubuntu 16.04.
+Our tool is built on top of Z3 SMT solver (https://github.com/Z3Prover/z3). Currently we support Z3 4.8.10 and the tool is tested on Ubuntu 20.04.
 
 # Website
 
@@ -17,17 +28,17 @@ $ git clone https://github.com/eth-sri/fastsmt.git
 $ cd fastsmt
 ```
 
-Download Z3 4.6.2
+Download Z3 4.8.10
 
 ```bash
 $ git clone https://github.com/Z3Prover/z3.git z3
 $ cd z3
 
-# Checkout Z3 version 4.6.2 that we tested against
-$ git checkout 5651d00751a1eb40b94db86f00cb7d3ec9711c4d 
+# Checkout Z3 version 4.8.10 that we tested against
+$ git checkout 517d907567f4283ad8b48ff9c2a3f6dce838569e 
 ```
 
-Install and compile Z3 4.6.2 (with cpp bindings):
+Install and compile Z3 4.8.10 (with cpp bindings):
 
 ```bash
 $ python scripts/mk_make.py 
@@ -45,7 +56,7 @@ $ source venv/bin/activate
 (venv) $ python setup.py install
 ```
 
-Install and compile Z3 4.6.2 (with Python bindings):
+Install and compile Z3 4.8.10 (with Python bindings):
 
 ```bash
 (venv) $ cd z3
@@ -60,7 +71,7 @@ Install and compile Z3 4.6.2 (with Python bindings):
 Finally, compile C++ runner: 
 ```bash
 $ cd fastsmt/cpp
-$ make -f make_z3_4.6.2
+$ make -f make_z3_4.8.10
 $ cd ..
 ```
 

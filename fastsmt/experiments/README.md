@@ -1,6 +1,6 @@
 # Intro
 
-Here we describe how to reproduce results reported in our paper. Note that you need to use Z3 version `4.6.2` to get the same results. Please consult setup instructions on this.
+Here we describe how to reproduce results reported in our paper. Note that you need to use Z3 version `4.8.10` to get the same results. Please consult setup instructions on this.
 
 # Downloading benchmarks
 
