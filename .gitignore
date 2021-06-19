@@ -1,0 +1,4 @@
+build/
+dist/
+fastsmt/eval/
+examples/
