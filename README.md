@@ -48,7 +48,7 @@ $ sudo make install
 $ cd ../..
 ``` 
 
-Setup python virtual environment. The code is tested with python version 3.5:
+Setup python virtual environment. The code is tested with python version 3.8.10:
 
 ```bash
 $ virtualenv -p python3 --system-site-packages venv
