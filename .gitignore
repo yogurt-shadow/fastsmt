@@ -2,3 +2,5 @@ build/
 dist/
 fastsmt/eval/
 examples/
+fastsmt.egg-info
+tmp/
