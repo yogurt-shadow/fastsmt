@@ -1,0 +1,5 @@
+-1
+unsat
+unsat
+sat
+sat
